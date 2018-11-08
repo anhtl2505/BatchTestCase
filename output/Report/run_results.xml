@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Parameter not found. (Exception from HRESULT: 0x80020004 (DISP_E_PARAMNOTFOUND))</Name>
+    <ErrorText>Parameter not found. (Exception from HRESULT: 0x80020004 (DISP_E_PARAMNOTFOUND))</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\anhtl\Desktop\BatchTestCase\\functions\TestInitialize.vbs&lt;BR/&gt;Line (6): &amp;quot;LoadProperties(gBasePath &amp;amp; &amp;quot;\properties\&amp;quot; &amp;amp; TestArgs(&amp;quot;env&amp;quot;) &amp;amp; &amp;quot;.properties&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\anhtl\Desktop\BatchTestCase\\functions\TestInitialize.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[LoadProperties(gBasePath & "\properties\" & TestArgs("env") & ".properties")]]></Scripts>
+          <LineNo><![CDATA[6]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[]]></ModuleName>
+          <FileName><![CDATA[]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[0]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\anhtl\Desktop\BatchTestCase\\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (8): &amp;quot;	ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\anhtl\Desktop\BatchTestCase\\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript - script block]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription]]></Scripts>
+          <LineNo><![CDATA[8]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[showMessageInJenkinsConsole]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showMessageInJenkinsConsole "TC001", "Login and Order flight"]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Login'</Name>
+    <ErrorText>Type mismatch: 'Login'</ErrorText>
+    <Description>&lt;BR/&gt;Line (3): &amp;quot;Call Login()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call Login()]]></Scripts>
+          <LineNo><![CDATA[3]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookFlight'</Name>
+    <ErrorText>Type mismatch: 'BookFlight'</ErrorText>
+    <Description>&lt;BR/&gt;Line (4): &amp;quot;Call BookFlight()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookFlight()]]></Scripts>
+          <LineNo><![CDATA[4]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookDate'</Name>
+    <ErrorText>Type mismatch: 'BookDate'</ErrorText>
+    <Description>&lt;BR/&gt;Line (5): &amp;quot;Call BookDate()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookDate()]]></Scripts>
+          <LineNo><![CDATA[5]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookClass'</Name>
+    <ErrorText>Type mismatch: 'BookClass'</ErrorText>
+    <Description>&lt;BR/&gt;Line (6): &amp;quot;Call BookClass()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookClass()]]></Scripts>
+          <LineNo><![CDATA[6]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookTickets'</Name>
+    <ErrorText>Type mismatch: 'BookTickets'</ErrorText>
+    <Description>&lt;BR/&gt;Line (7): &amp;quot;Call BookTickets()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookTickets()]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'FindSelectFlight'</Name>
+    <ErrorText>Type mismatch: 'FindSelectFlight'</ErrorText>
+    <Description>&lt;BR/&gt;Line (8): &amp;quot;Call FindSelectFlight()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call FindSelectFlight()]]></Scripts>
+          <LineNo><![CDATA[8]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'FillDetail'</Name>
+    <ErrorText>Type mismatch: 'FillDetail'</ErrorText>
+    <Description>&lt;BR/&gt;Line (9): &amp;quot;Call FillDetail()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call FillDetail()]]></Scripts>
+          <LineNo><![CDATA[9]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Quit'</Name>
+    <ErrorText>Type mismatch: 'Quit'</ErrorText>
+    <Description>&lt;BR/&gt;Line (10): &amp;quot;Call Quit()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call Quit()]]></Scripts>
+          <LineNo><![CDATA[10]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'ReportUtil'</Name>
+    <ErrorText>Object required: 'ReportUtil'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\anhtl\Desktop\BatchTestCase\\functions\Jenkins-Output.vbs&lt;BR/&gt;Line (8): &amp;quot;	ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\anhtl\Desktop\BatchTestCase\\functions\Jenkins-Output.vbs]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript - script block]]></FunctionName>
+          <Scripts><![CDATA[ReportUtil.UpdateTestCaseInfo TestCaseNumber, TestCaseDescription]]></Scripts>
+          <LineNo><![CDATA[8]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[showMessageInJenkinsConsole]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[showMessageInJenkinsConsole]]></Scripts>
+          <LineNo><![CDATA[10]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Login'</Name>
+    <ErrorText>Type mismatch: 'Login'</ErrorText>
+    <Description>&lt;BR/&gt;Line (15): &amp;quot;Call Login()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:40</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call Login()]]></Scripts>
+          <LineNo><![CDATA[15]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookFlight'</Name>
+    <ErrorText>Type mismatch: 'BookFlight'</ErrorText>
+    <Description>&lt;BR/&gt;Line (16): &amp;quot;Call BookFlight()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookFlight()]]></Scripts>
+          <LineNo><![CDATA[16]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookDate'</Name>
+    <ErrorText>Type mismatch: 'BookDate'</ErrorText>
+    <Description>&lt;BR/&gt;Line (17): &amp;quot;Call BookDate()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookDate()]]></Scripts>
+          <LineNo><![CDATA[17]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookClass'</Name>
+    <ErrorText>Type mismatch: 'BookClass'</ErrorText>
+    <Description>&lt;BR/&gt;Line (18): &amp;quot;Call BookClass()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookClass()]]></Scripts>
+          <LineNo><![CDATA[18]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'BookTickets'</Name>
+    <ErrorText>Type mismatch: 'BookTickets'</ErrorText>
+    <Description>&lt;BR/&gt;Line (19): &amp;quot;Call BookTickets()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call BookTickets()]]></Scripts>
+          <LineNo><![CDATA[19]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Quit'</Name>
+    <ErrorText>Type mismatch: 'Quit'</ErrorText>
+    <Description>&lt;BR/&gt;Line (20): &amp;quot;Call Quit()&amp;quot;.</Description>
+    <StartTime>2018-11-08 10:34:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[TestFlight]]></ModuleName>
+          <FileName><![CDATA[TestFlight]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call Quit()]]></Scripts>
+          <LineNo><![CDATA[20]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e548f1f7ddbe4884b72c1302a0772855</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>TestFlight</Name>
+    <Description />
+    <StartTime>2018-11-08 10:34:38</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2166d7a1aa1e44c7b1b8271f41baeaa3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-11-08 10:34:38</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>3bab2b6d7da345d8918e66b71dbfea82</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>TC1</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.50</ToolVersion>
+    <ToolVersionStringLiteral>14.50</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2018-11-08 10:34:36</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>43b4f752124244cba40e2ade3ffe7ec8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+07:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>IMT-SOFT\anhtl</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8099</TotalMemory>
+      <HostName>ANHTL</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>output</ResultName>
+    <RunStartTime>2018-11-08 10:34:36</RunStartTime>
+    <Timezone>+07:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.50</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.50</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

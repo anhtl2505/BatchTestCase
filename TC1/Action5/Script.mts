@@ -1,4 +1,4 @@
-﻿'-------------------------------- Test1 ---------------------------------------------------
+﻿'-------------------------------- Test1 ---------------------------------------------------'
 showMessageInJenkinsConsole "TC001", "Login and Order flight"
 Call Login()
 Call BookFlight()
@@ -9,7 +9,7 @@ Call FindSelectFlight()
 Call FillDetail()
 Call Quit()
 
-'-------------------------------- Test2 ---------------------------------------------------
+'-------------------------------- Test2 ---------------------------------------------------'
 
 showMessageInJenkinsConsole "TC002", "Check Flight"
 Call Login()
@@ -19,4 +19,3 @@ Call BookClass()
 Call BookTickets()
 Call Quit()
 
-'Coding

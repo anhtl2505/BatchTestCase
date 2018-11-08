@@ -4,7 +4,8 @@ Dim strBasePath : strBasePath = left(WScript.ScriptFullName,(Len(WScript.ScriptF
 ConsoleOutputBlankLine(1)
 Call KillProcess("UFT.exe")
 Call KillProcess("QtpAutomationAgent.exe")
-Call KillProcess("iexplore.exe")
+'Call KillProcess("iexplore.exe")
+Call KillProcess("FlightsGUI.exe")
 
 'Create QTP object
 ConsoleOutputBlankLine(1)
@@ -15,7 +16,7 @@ QTP.Visible = TRUE
 
 'Open QTP Test
 ConsoleOutput("Opening Test....")
-QTP.Open strBasePath & "\tagTest", TRUE 'Set the QTP test path
+QTP.Open strBasePath & "\TC1", TRUE 'Set the QTP test path
   
 'Set Result location
 Set qtpResultsOpt = CreateObject("QuickTest.RunResultsOptions")
@@ -65,7 +66,7 @@ While QTP.Test.isRunning
 Wend
 ConsoleOutputBlankLine(2)
 'Close QTP
-ConsoleOutput("Execution Completed Successfully!!!!!!!!!!")
+ConsoleOutput("Execution Completed Successfully!!!!!!")
 QTP.Quit
 
 
