@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_14
+Project("") = "TC1", "TC1\Test.tsp", "7056BF81-D171-42B4-B915-0809D4CD0F89"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\anhtl\Documents\Unified Functional Testing\TC1\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "tagTest", "..\..\Desktop\demo-jenkins\tag-qtp-jenkins-demo-master\tagTest\Test.tsp", "1CEB65B7-A7D2-4F5F-8867-4AEC8B416507"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\anhtl\Desktop\demo-jenkins\tag-qtp-jenkins-demo-master\tagTest\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		7056BF81-D171-42B4-B915-0809D4CD0F89.Debug|Any CPU.Build.0 = Debug|Any CPU
+		7056BF81-D171-42B4-B915-0809D4CD0F89.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		7056BF81-D171-42B4-B915-0809D4CD0F89.Release|Any CPU.Build.0 = Release|Any CPU
+		7056BF81-D171-42B4-B915-0809D4CD0F89.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1CEB65B7-A7D2-4F5F-8867-4AEC8B416507.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1CEB65B7-A7D2-4F5F-8867-4AEC8B416507.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1CEB65B7-A7D2-4F5F-8867-4AEC8B416507.Release|Any CPU.Build.0 = Release|Any CPU
+		1CEB65B7-A7D2-4F5F-8867-4AEC8B416507.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(Function Libraries) = postProject
+		LibraryFights = C:\Users\anhtl\Documents\Unified Functional Testing\LibraryFights.qfl
+	EndGlobalSection
+EndGlobal
