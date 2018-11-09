@@ -3,7 +3,7 @@ gBasePath = CreateObject("Scripting.FileSystemObject").GetParentFolderName(Envir
  
  
 'Load the properties as Environment Variables of QTP/UFT
-LoadProperties(gBasePath & "\properties\" & TestArgs("env") & ".properties")
+'LoadProperties(gBasePath & "\properties\" & TestArgs("env") & ".properties")
  
 'Below functions find all the properties files and create Environment variables
 Sub LoadProperties(ByVal FilePath)

@@ -1,5 +1,5 @@
 ﻿'-------------------------------- Test1 ---------------------------------------------------'
-showMessageInJenkinsConsole "TC001", "Login and Order flight"
+
 Call Login()
 Call BookFlight()
 Call BookDate()
@@ -11,11 +11,10 @@ Call Quit()
 
 '-------------------------------- Test2 ---------------------------------------------------'
 
-showMessageInJenkinsConsole "TC002", "Check Flight"
-Call Login()
-Call BookFlight()
-Call BookDate()
-Call BookClass()
-Call BookTickets()
-Call Quit()
 
+'Call Login()
+'Call BookFlight()
+'Call BookDate()
+'Call BookClass()
+'Call BookTickets()
+'Call Quit()
