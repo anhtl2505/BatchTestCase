@@ -4,4 +4,4 @@ Browser("mHelpDesk Login").Page("mHelpDesk Login").WebEdit("ucLogin$txtUsername"
 Browser("mHelpDesk Login").Page("mHelpDesk Login").WebEdit("ucLogin$txtPassword").Set "tester123"
 Browser("mHelpDesk Login").Page("mHelpDesk Login").Link("Sign In").Click
 wait(5)
-Browser("mHelpDesk Login").Quit
+'Browser("mHelpDesk Login").Quit
